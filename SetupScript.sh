@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 ######################################################
 #                    REPOSITORIES                    #
 ######################################################
@@ -19,6 +21,9 @@ sudo add-apt-repository ppa:ubuntu-wine/ppa
 
 #Add Sublime Text 2 Repository
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
+
+#Add Handbrake Repository
+sudo add-apt-repository ppa:stebbins/handbrake-snapshots
 
 ######################################################
 ######################################################
@@ -64,6 +69,9 @@ sudo apt-get install tree
 
 #Install VLC Media Player & Browser Plugin
 sudo apt-get install vlc browser-plugin-vlc
+
+#Install Handbrake GUI and CLI
+sudo apt-get install handbrake-gtk handbrake-cli
 
 #Install Gimp
 sudo apt-get install gimp
