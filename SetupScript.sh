@@ -92,6 +92,7 @@ sudo apt-get install nautilus-open-terminal
 sudo apt-get install gparted
 
 #Install Java 64bit
+#TODO: fix JAVA failed installation
 sudo apt-get -y install icedtea-java7-jdk icedtea-java7-jre icedtea-java7-plugin
 
 #Install Flash
