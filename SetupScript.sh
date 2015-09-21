@@ -106,10 +106,12 @@ sudo apt-get -y install rar unrar p7zip p7zip-full
 sudo apt-get -y install gstreamer0.10-pitfdll gstreamer0.10-ffmpeg gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse
 
 #Install AVG Antivirus
-#TODO: Fix failed installation
-apt-get install gdebi
+sudo apt-get -y install gdebi
 wget http://download.avgfree.com/filedir/inst/avg2013flx-r3118-a6926.i386.deb
-gdebi avg2013flx-r3118-a6926.i386.deb
+sudo gdebi avg2013flx-r3118-a6926.i386.deb
+sudo xdotool key y
+sudo xdotool key KP_Enter
+sudo avgupdate
 
 #Install GoLang
 sudo apt-get install GoLang
