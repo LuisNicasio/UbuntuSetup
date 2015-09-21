@@ -96,15 +96,18 @@ sudo apt-get install gparted
 sudo apt-get -y install icedtea-java7-jdk icedtea-java7-jre icedtea-java7-plugin
 
 #Install Flash
+#TODO: how to determine if installed?
 sudo apt-get -y install flashplugin-nonfree
 
 #Install File De/Compressions Managers
 sudo apt-get -y install rar unrar p7zip p7zip-full
 
 #Install various CODECS for Media playback
+#TODO: how to determine if installed?
 sudo apt-get -y install gstreamer0.10-pitfdll gstreamer0.10-ffmpeg gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse
 
 #Install AVG Antivirus
+#TODO: Fix failed installation
 apt-get install gdebi
 wget http://download.avgfree.com/filedir/inst/avg2013flx-r3118-a6926.i386.deb
 gdebi avg2013flx-r3118-a6926.i386.deb
