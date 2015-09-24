@@ -87,8 +87,8 @@ sudo wget -qO- https://get.docker.com/ | sh
 sudo usermod -aG docker ${USER}
 
 #Install Docker-compose
-curl -L https://github.com/docker/compose/releases/download/VERSION_NUM/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/VERSION_NUM/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 
 #Install Nautilus Open Terminal
 sudo apt-get -y install nautilus-open-terminal
